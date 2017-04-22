@@ -1,0 +1,20 @@
+Masz n skrzynek, każdą z nich można otworzyć jej kluczem lub siłowo łomem. Ktoś powrzucał klucze do pewnych skrzynek - dostałeś dokładny opis, w której jaki jest klucz. Pilnie potrzebujesz złota ze wszytskich skrzynek i chcesz je wszytskie otworzyć używając jak najmniej razy łomu.
+
+Wejście
+
+W pierwszym wierszu standardowego wejścia znajduje się jedna liczba całkowita n (1 ≤ n ≤ 1 000 000 ) — ilość skrzynek. Skrzynki (jak również odpowiadające im klucze) są ponumerowane od 1 do n. Dalej na wejściu mamy n wierszy: w ( i + 1)-szym wierszu zapisana jest jedna liczba całkowita — numer skrzynki, w której znajduje się i-ty klucz.
+
+Wyjście
+
+W pierwszym i jedynym wierszu standardowego wyjścia należy zapisać jedną liczbę całkowitą — minimalną liczbę skrzynek, które trzeba otworzyć siłowo, aby dostać się do wszystkich.
+
+Przykład
+
+Dla danych wejściowych:
+4
+2
+1
+2
+4
+poprawną odpowiedzią jest:
+2
