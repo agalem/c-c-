@@ -1,0 +1,17 @@
+Wejście
+
+Pierwszy wiersz wejścia zawiera dwie liczby całkowite n i m (1 ≤ n,m ≤ 300 000 ), oddzielone pojedynczym odstępem i oznaczające wysokość rurki Jasia (liczbę walców wchodzących w jej skład) i liczbę krążków, które zamierza wrzucić do rurki. Drugi wiersz wejścia zawiera n liczb całkowitych r1,r2,...,rn (1 ≤ ri ≤ 1 000 000 000 dla 1 ≤ i ≤ n) oddzielonych pojedynczymi odstępami i oznaczających średnice otworów wyciętych w kolejnych (od góry) walcach tworzących rurkę. Trzeci wiersz wejścia zawiera m liczb całkowitych k1, k2,..., km (1 ≤ kj ≤ 1 000 000 000 dla 1 ≤ j ≤ m) oddzielonych pojedynczymi odstępami i oznaczających średnice kolejnych krążków, które Jaś zamierza wrzucić do rurki.
+
+Wyjście
+
+Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę całkowitą, oznaczającą głębokość zatrzymania się ostatniego krążka. Jeżeli krążek ten w ogóle nie wpadnie do rurki, to odpowiedzią powinna być liczba 0.
+
+Przykład
+
+Dla danych wejściowych:
+7 3
+5 6 4 3 6 2 3
+3 2 5
+
+poprawną odpowiedzią jest:
+2
